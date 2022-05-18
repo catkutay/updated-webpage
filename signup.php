@@ -20,7 +20,7 @@ $conn = new mysqli('localhost','root','','signup');
               //  VALUES ('$firstname','$lastname','$username','$email', '$date', '$appt')";
               // mysqli_query($conn, $sql2);
               //  print($sql2);
-            $sql3="INSERT INTO `psignup`(`firstname`, `lastname`, `username`, `email`, `date`, `appt`) VALUES ('$firstname','$lastname','$username','$email', '$date', '$appt')";
+            $sql3="INSERT INTO `psignup`(`firstname`, `lastname`, `username`, `email`, `date`, `appointment`) VALUES ('$firstname','$lastname','$username','$email', '$date', '$appointment')";
             mysqli_query($conn, $sql3);
                 print($sql3);
                 
