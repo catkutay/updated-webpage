@@ -161,6 +161,7 @@ button {
 
 
 .doctors .box-container{
+    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:2rem;
@@ -309,6 +310,8 @@ button {
 .footer .credit span{
     color:var(--green);
 }
+
+
 
 
 
